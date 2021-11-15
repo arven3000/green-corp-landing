@@ -160,17 +160,18 @@ button:hover {
 }
 
 footer {
-    margin: 90px 20px 90px 20px;
+    padding: 90px 20px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .footer__container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .footer__copyright {
-    padding-top: 40px;
+    margin-top: 40px;
     text-align: center;
     opacity: 0.5;
 }
@@ -188,5 +189,8 @@ footer {
 .footer__links {
     display: flex;
     flex-direction: column;
+}
+
+.footer__links a {
     margin-bottom: 15px;
 }
